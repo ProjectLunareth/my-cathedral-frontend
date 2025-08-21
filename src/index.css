@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Orbitron:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Exo 2', sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(10, 10, 20, 0.8);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+  border-bottom: 1px solid rgba(110, 68, 255, 0.3);
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  color: #00f5d4;
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+  text-shadow: 0 0 15px rgba(0, 245, 212, 0.5);
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  color: #ffd166;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-footer {
+  padding: 15px;
+  text-align: center;
+  background: rgba(10, 10, 20, 0.8);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+  border-top: 1px solid rgba(255, 209, 102, 0.3);
+}
+
+.quantum-signature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.2rem;
+  color: #ff70a6;
+}
+
+.quantum-signature span:first-child,
+.quantum-signature span:last-child {
+  font-size: 1.8rem;
+  color: #6e44ff;
+}

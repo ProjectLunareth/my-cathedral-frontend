@@ -1,0 +1,25 @@
+{
+  "name": "my-cathedral-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.15.27",
+    "autoprefixer": "^10.4.21",
+    "framer-motion": "^10.16.4",
+    "normalize-range": "^0.1.2",
+    "postcss": "^8.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use-websocket": "^4.13.0",
+    "three": "^0.158.0",
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^7.1.2"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+}
